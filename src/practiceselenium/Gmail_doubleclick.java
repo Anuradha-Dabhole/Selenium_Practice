@@ -13,8 +13,8 @@ public class Gmail_doubleclick {
         driver.manage().window().maximize();
         WebElement e1=driver.findElement(By.linkText("Gmail"));
         Actions a1=new Actions(driver);
-       // a1.doubleClick(e1).perform();
-        a1.contextClick(e1).perform();
+       // a1.doubleClick(e1).perform();//Double click
+        a1.contextClick(e1).perform();//Right click
 		
 		
 	}

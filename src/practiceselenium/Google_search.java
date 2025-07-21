@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 
 public class Google_search {
 
@@ -13,7 +14,7 @@ public class Google_search {
         driver.get("https://www.google.com");
         driver.manage().window().maximize();
         driver.findElement(By.name("q")).sendKeys("India",Keys.ENTER);
-       // driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
+       driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
 
 	}
 
