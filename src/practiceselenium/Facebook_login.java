@@ -1,7 +1,6 @@
 package practiceselenium;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Facebook_login {

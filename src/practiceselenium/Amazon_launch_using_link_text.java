@@ -8,7 +8,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 public class Amazon_launch_using_link_text {
 
 	public static void main(String[] args) {
-		EdgeDriver driver=new EdgeDriver();
+		ChromeDriver driver=new ChromeDriver();
         driver.get("https://www.amazon.in");
         driver.manage().window().maximize();
         WebElement e1= driver.findElement(By.linkText("Customer Service"));

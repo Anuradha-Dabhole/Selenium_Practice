@@ -27,7 +27,6 @@ public class Autosuggestion {
 			String auto = a1.getText();
 			System.out.println(auto);
 		}
-
 	}
 
 }
